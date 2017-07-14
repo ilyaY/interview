@@ -1,5 +1,6 @@
 package delightex;
 
+@SuppressWarnings("WeakerAccess")
 public class ListElement<T> {
   public final T value;
   public ListElement<T> next;
